@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Exercise1_dine_booking</title>
+    </head>
+    <body>
+        <form align="center">
+            <h3><label for="dinebooking">Dine Booking</label></h3>
+            <label for="vistorsname">Visitor Name:</label>
+            <input type="text" maxlength="20" autofocus="true"/><br/><br/>
+            <label for="noofmem">No.of Members:</label>
+            <input type="number" maxlength="2"/><br/><br/>
+            <label for="contact">Contact No:</label>
+            <input type="tel"/><br/><br/>
+            <label for="email">Email:</label>
+            <input type="email"/><br/><br/>
+            <label for="typeoffood">Type of Food:</label>
+            <input type="checkbox" id="south" name="food" checked="true"/>SouthIndian
+            <input type="checkbox" id="north" name="food"/>NorthIndian
+            <input type="checkbox" id="Chineese" name="food"/>Chineese
+            <input type="checkbox" id="Western" name="food"/>Western<br/><br/>
+            <label for="roomstatus" >Room status:</label>
+            <input type="radio" id="ac" name="status" checked="true"/>AC
+            <input type="radio" id="non-ac" name="status"/>Non-AC<br/><br/>
+            <label for="venue" value=" ">Venue Preference:</label>
+            <select id="venue" name="venue">
+                <option value="">--select--</option>
+                <option value="Arena">Arena</option>
+                <option value="Fiesta">Fiesta</option>
+                <option value="Vista">Vista</option>
+                <option value="Mythri">Mythri</option>
+                <option value="Manga">Manga</option>
+                <option value="Oasis">Oasis</option>
+                <option value="Amoeba">Amoeba</option>
+            </select><br/><br/>
+            <input type="submit" value="Book"/>
+            <input type="reset" value="Reset"/>
+        </form>
+    </body>
+</html>

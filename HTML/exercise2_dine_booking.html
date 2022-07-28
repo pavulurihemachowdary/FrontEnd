@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Exercise2_dine_booking</title>
+    </head>
+    <body>
+        <table align="center">
+            <caption><h3>Dine Booking</h3></caption>
+            <br/><tr><td colspan="5"><label for="vistorsname">Visitor Name:</label></td>
+            <td><input type="text" maxlength="20" autofocus="true"/></td></tr><br/><br/>
+            <tr><td colspan="5"><label for="noofmem">No.of Members:</label></td>
+            <td><input type="number" maxlength="2"/></td></tr><br/><br/>
+            <tr><td colspan="5"><label for="contact">Contact No:</label></td>
+            <td><input type="tel"/></td></tr><br/><br/>
+            <tr><td colspan="5"><label for="email">Email:</label></td>
+            <td><input type="email"/></td></tr><br/><br/>
+            <tr><td colspan="5"><label for="typeoffood">Type of Food:</label></td>
+            <td colspan="0"><input type="checkbox" id="south" name="food" checked="true"/>SouthIndian</td>
+            <td colspan="0"><input type="checkbox" id="north" name="food"/>NorthIndian</td>
+            <td colspan="0"><input type="checkbox" id="Chineese" name="food"/>Chineese</td>
+            <td colspan="0"><input type="checkbox" id="Western" name="food"/>Western</td></tr><br/><br/>
+            <tr><td colspan="5"><label for="roomstatus" >Room status:</label></td>
+            <td colspan="0"><input type="radio" id="ac" name="status" checked="true"/>AC</td>
+            <td colspan="0"><input type="radio" id="non-ac" name="status"/>Non-AC</td></tr><br/><br/>
+            <tr><td colspan="5"><label for="venue" value=" ">Venue Preference:</label></td>
+            <td><select id="venue" name="venue">
+                <option value="">--select--</option>
+                <option value="Arena">Arena</option>
+                <option value="Fiesta">Fiesta</option>
+                <option value="Vista">Vista</option>
+                <option value="Mythri">Mythri</option>
+                <option value="Manga">Manga</option>
+                <option value="Oasis">Oasis</option>
+                <option value="Amoeba">Amoeba</option>
+            </select></td></tr><br/><br/>
+            <tr><td colspan="5"><input type="submit" value="Book"/></td>
+            <td><input type="reset" value="Reset"/></td></tr>
+        </table>
+    </body>
+</html>
