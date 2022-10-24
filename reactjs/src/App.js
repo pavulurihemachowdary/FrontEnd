@@ -1,8 +1,9 @@
-import Parent from "./components/Parent";
+import CricScore from "./components/CricScore";
+
 function App() {
   return (
    <div> 
-        <Parent />
+        <CricScore />
    </div>
   );
 }
