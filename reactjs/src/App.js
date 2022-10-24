@@ -1,9 +1,8 @@
-import AxiosDemo from './components/AxiosDemo';
-
+import DigitalClock from "./components/DigitalClock";
 function App() {
   return (
    <div> 
-        <AxiosDemo />
+        <DigitalClock />
    </div>
   );
 }
