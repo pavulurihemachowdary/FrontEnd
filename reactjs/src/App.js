@@ -1,8 +1,8 @@
-import DigitalClock from "./components/DigitalClock";
+import Parent from "./components/Parent";
 function App() {
   return (
    <div> 
-        <DigitalClock />
+        <Parent />
    </div>
   );
 }
