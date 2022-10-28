@@ -1,8 +1,8 @@
-import AxiosDemo from './components/AxiosDemo';
+import UseEffectDemo from './functionalcomp/UseEffectDemo';
 export default function App(){
   return(
     <div>
-      <AxiosDemo />
+      <UseEffectDemo />
     </div>
   );
   }
