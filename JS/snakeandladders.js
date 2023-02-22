@@ -38,5 +38,5 @@ while(p1<100 && p2<100)
     {
         console.log("Player 2 wins");
         break;
-    }
+    }
 }
